@@ -1,0 +1,24 @@
+<ion-header >
+  <ion-toolbar color="danger">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <br>
+  <h3>Entrar</h3>
+  <br>
+  <ion-list>
+    <ion-item >
+      <ion-input labelPlacement="floating" value="">
+        <div slot="label">email</div>
+      </ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-input labelPlacement="floating" value="">
+        <div slot="label">clave</div>
+      </ion-input>
+    </ion-item>
+    <br>
+    <ion-button expand="full" [routerLink]="['/menu']" color="success">Entrar</ion-button>
+  </ion-list>
+</ion-content>

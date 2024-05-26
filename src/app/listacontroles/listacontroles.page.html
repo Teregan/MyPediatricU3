@@ -1,0 +1,46 @@
+<ion-header >
+  <ion-toolbar color="tertiary">
+    <ion-title><h3>Controles</h3></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-list>
+    <ion-item color="success">
+
+    </ion-item>
+    <ion-item color="success">
+
+    </ion-item>
+    <ion-item color="danger">
+
+    </ion-item>
+    <ion-item color="success">
+
+    </ion-item>
+  </ion-list>
+</ion-content>
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1" [routerLink]="['/menu']">
+      <ion-icon aria-hidden="true" name="home"></ion-icon>      
+      <ion-label>Menu</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2" href="/tabs/tab2">
+      <ion-icon aria-hidden="true" name="search"></ion-icon>
+      <ion-label>Buscar</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3" href="/tabs/tab3">
+      <ion-icon aria-hidden="true" name="receipt"></ion-icon>
+      <ion-label>Revisar</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="tab4"  [routerLink]="['/control']">
+      <ion-icon aria-hidden="true" name="person-circle"></ion-icon>
+      <ion-label>Nuevo</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
